@@ -25,7 +25,7 @@ author:
   name             : "Yuan Cheng"
   pronouns         : "cyuan328@sjtu.edu.cn"  
   bio              : "Associate Professor at Shanghai Jiao Tong University. "
-  location         : "Shanghai, Xuhui District, No. 1954 Huashan Road"
+  # location         : "Xuhui, Shanghai"
   # employer         : School of Artificial Intelligence
   uri              : # URL
   # email            : "cyuan328@sjtu.edu.cn" 

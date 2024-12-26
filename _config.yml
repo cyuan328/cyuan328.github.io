@@ -21,11 +21,11 @@ repository               : "cyuan328/cyuan328.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "head.png"
   name             : "Yuan Cheng"
-  pronouns         : "he"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Shanghai"
+  pronouns         : "Associate Professor"  
+  # bio              : "Short biography for the left-hand sidebar"
+  # location         : "Shanghai"
   employer         : "Shanghai Jiao Tong University"
   uri              : # URL
   email            : "cyuan328@sjtu.edu.cn" 

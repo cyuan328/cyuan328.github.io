@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Yuan Cheng's homepage"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I received my B.Eng. from UESTC in 2016 and Ph.D. from SJTU in 2021 (Advisor: Prof. Sheldon Tan). From May 2019 to Nov 2020, I was a visiting scholar at HKU (Hosts: Dr. Ngai Wong). From Dec 2020 to Otc 2021, I was a research intern at Computing Technology Lab, Alibaba DAMO Academy (Hosts: Prof. Yuan Xie). Now I am working as a postdoctoral researcher at Sigma lab, THU (Supervisor: Dr. Lu Fang).
+I am currently a tenure-track associate professor at the School of Artificial Intelligence, Shanghai Jiao Tong University. I received my Ph.D. from SJTU in 2021 and B.Eng. from UESTC in 2016. From Mar 2022 to Mar 2025, I worked as a postdoctoral researcher at Sigma lab, THU (Advisor: Prof. Lu Fang). From Dec 2020 to Otc 2021, I was a researcher at Computing Technology Lab, Alibaba DAMO Academy (Hosts: Prof. Yuan Xie). From May 2019 to Nov 2020, I was a visiting scholar at HKU (Hosts: Dr. Ngai Wong).
 
 
 A data-driven personal website

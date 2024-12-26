@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "head.png"
   name             : "Yuan Cheng"
-  pronouns         : "Associate Professor"  
-  # bio              : "Short biography for the left-hand sidebar"
+  # pronouns         : "Associate Professor"  
+  bio              : "I am an Associate Professor in the School of Artificial Intelligence at Shanghai Jiao Tong University. "
   # location         : "Shanghai"
-  employer         : "Shanghai Jiao Tong University"
+  # employer         : "Shanghai Jiao Tong University"
   uri              : # URL
   email            : "cyuan328@sjtu.edu.cn" 
 
@@ -44,12 +44,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  # github           : "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

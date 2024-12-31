@@ -22,6 +22,6 @@ My research focuses on the intersection of __artificial intelligence__ and __com
 - <font size="3">Lightweight neural network design</font>
 - <font size="3">Computational compression method</font>
 
-You may find my publications on [google scholar](https://scholar.google.com/citations?user=XJLW5xMAAAAJ&hl=zh-CN).
+You may find my previous publications on [Google Scholar](https://scholar.google.com/citations?user=XJLW5xMAAAAJ&hl=zh-CN).
 
 

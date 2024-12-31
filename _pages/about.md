@@ -14,12 +14,12 @@ I am looking for talented PhD/Master students, PostDocs, research assistants, an
 
 Research interests
 ======
-My research focuses on the intersection of __artificial intelligence__ and __computational optics__, __terminal computing__, and __algorithm-hardware co-design__, particularly the following areas:
+My research focuses on the intersection of *artificial intelligence* and *computational optics*, *terminal computing*, and *algorithm-hardware co-design*, particularly the following areas:
 
-- Large-scale photonic computing including free-space optical system and on-chip optics 
+<small>- Large-scale photonic computing including free-space optical system and on-chip optics 
 - Structured edge computing architecture and terminal accelerator
 - Terminal computing for large model and embodied intelligence
 - Lightweight neural network design
-- Computational compression method
+- Computational compression method</small>
 
 

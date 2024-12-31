@@ -16,10 +16,10 @@ Research interests
 ======
 My research focuses on the intersection of *artificial intelligence* and *computational optics*, *terminal computing*, and *algorithm-hardware co-design*, particularly the following areas:
 
-- <font size="4">Large-scale photonic computing including free-space optical system and on-chip optics</font>
-- <font size="4">Structured edge computing architecture and terminal accelerator</font>
-- <font size="4">Terminal computing for large model and embodied intelligence</font>
-- <font size="4">Lightweight neural network design</font>
-- <font size="4">Computational compression method</font>
+- <font size="3">Large-scale photonic computing including free-space optical system and on-chip optics</font>
+- <font size="3">Structured edge computing architecture and terminal accelerator</font>
+- <font size="3">Terminal computing for large model and embodied intelligence</font>
+- <font size="3">Lightweight neural network design</font>
+- <font size="3">Computational compression method</font>
 
 

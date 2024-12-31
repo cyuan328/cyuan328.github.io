@@ -12,7 +12,7 @@ I am a tenure-track Associate Professor at the [School of Artificial Intelligenc
 I am looking for talented PhD/Master students, PostDocs, research assistants, and interns. If you are interested in working with us, feel free to contact me by [email](cyuan328@gmail.com).
 
 
-### Research interests
+## Research interests
 
 My research focuses on the intersection of *artificial intelligence* and *computational optics*, *terminal computing*, and *algorithm-hardware co-design*, particularly the following areas:
 

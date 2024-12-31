@@ -16,11 +16,11 @@ I am looking for talented PhD/Master students, PostDocs, research assistants, an
 
 My research focuses on the intersection of __artificial intelligence__ and __computational optics__, __terminal computing__, and __algorithm-hardware co-design__, particularly the following areas:
 
-- <font size="4">Large-scale photonic computing including free-space optical system and on-chip optics</font>
-- <font size="4">Structured edge computing architecture and terminal accelerator</font>
-- <font size="4">Terminal computing for large model and embodied intelligence</font>
-- <font size="4">Lightweight neural network design</font>
-- <font size="4">Computational compression method</font>
+- <font size="3">Large-scale photonic computing including free-space optical system and on-chip optics</font>
+- <font size="3">Structured edge computing architecture and terminal accelerator</font>
+- <font size="3">Terminal computing for large model and embodied intelligence</font>
+- <font size="3">Lightweight neural network design</font>
+- <font size="3">Computational compression method</font>
 
 You may find my publications on [google scholar](https://scholar.google.com/citations?user=XJLW5xMAAAAJ&hl=zh-CN).
 

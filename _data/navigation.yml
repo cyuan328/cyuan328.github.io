@@ -11,8 +11,8 @@ main:
   # - title: "Talks"
   #   url: /talks/    
 
-  # - title: "Positions"
-  #   url: /position/    
+  - title: "Positions"
+    url: /position/    
     
   # - title: "Portfolio"
   #   url: /portfolio/

@@ -3,8 +3,8 @@ permalink: /position/
 title: "Positions"
 author_profile: true
 redirect_from: 
-  - "/position/"
-  - "/position.html"
+  - "/job/"
+  - "/job.html"
 ---
 
 __招生__：博士/硕士、科研助理、实习、博士后

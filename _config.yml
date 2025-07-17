@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "About us"
 title_separator          : "-"
-name                     : &name "Yuan Cheng"
-description              : &description "personal description"
+name                     : &name "CLab"
+description              : &description "Advancing AI research in machine learning, computer vision, and robotics"
 url                      : https://cyuan328.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cyuan328/cyuan328.github.io"

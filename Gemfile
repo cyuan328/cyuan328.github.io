@@ -10,3 +10,7 @@ group :jekyll_plugins do
 end
 
 gem 'github-pages'
+
+# For Windows compatibility
+gem "wdm", ">= 0.1.0", :install_if => Gem.win_platform?
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

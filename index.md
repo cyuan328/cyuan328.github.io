@@ -21,7 +21,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Jun. 03, 2025**: The work of [Brillouin sensing](https://www.nature.com/articles/s41377-025-01848-4) is published in ***Light: Science & Applications***.
 - **Sep. 17, 2024**: The work of [photonic in-memory sensing](https://pubs.acs.org/doi/abs/10.1021/acsnano.4c09735) is published in ***ACS Nano***.
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
-- One paper is submitted to ***Science Advance***.
+- One paper is submitted to ***Science Advances***.
 - One paper is submitted to ***Nature Nanotechnology***.
 - One paper is submitted to ***Nature Electronics***.
 - One paper is submitted to ***Advanced Materials***.

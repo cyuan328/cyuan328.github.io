@@ -5,10 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
 <!-- Selected Publications Section -->
@@ -18,7 +14,7 @@ author_profile: true
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-image">
-      <img src="/images/paper1.png" alt="Diffractive Computing" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px;">
+      <img src="/images/paper1.png" alt="Diffractive Computing" style="width: 400px; height: 300px; object-fit: cover; border-radius: 8px;">
     </div>
     <div class="publication-details">
       <h3>Diffractive tensorized unit for million-TOPS general-purpose computing</h3>
@@ -31,7 +27,7 @@ author_profile: true
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-image">
-      <img src="/images/paper2.png" alt="Brillouin Sensing" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px;">
+      <img src="/images/paper2.png" alt="Brillouin Sensing" style="width: 400px; height: 300px; object-fit: cover; border-radius: 8px;">
     </div>
     <div class="publication-details">
       <h3>High-spatiotemporal-resolution distributed Brillouin sensing with transient acoustic wave</h3>
@@ -44,7 +40,7 @@ author_profile: true
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-image">
-      <img src="/images/paper3.png" alt="Photonic Neuromorphic" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px;">
+      <img src="/images/paper3.png" alt="Photonic Neuromorphic" style="width: 400px; height: 300px; object-fit: cover; border-radius: 8px;">
     </div>
     <div class="publication-details">
       <h3>Photonic neuromorphic architecture for tens-of-task lifelong learning</h3>
@@ -57,7 +53,7 @@ author_profile: true
 <div class="publication-item">
   <div class="publication-content">
     <div class="publication-image">
-      <img src="/images/paper4.png" alt="Photoresponsive Magnetic" style="width: 200px; height: 150px; object-fit: cover; border-radius: 8px;">
+      <img src="/images/paper4.png" alt="Photoresponsive Magnetic" style="width: 400px; height: 300px; object-fit: cover; border-radius: 8px;">
     </div>
     <div class="publication-details">
       <h3>Photoresponsive two-dimensional magnetic junctions for reconfigurable in-memory sensing</h3>
@@ -78,12 +74,14 @@ author_profile: true
 
 .publication-content {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
 }
 
 .publication-image {
   flex-shrink: 0;
+  text-align: center;
 }
 
 .publication-details {
@@ -118,40 +116,12 @@ author_profile: true
 }
 
 @media (max-width: 768px) {
-  .publication-content {
-    flex-direction: column;
-  }
-  
   .publication-image img {
     width: 100% !important;
-    max-width: 300px;
+    max-width: 350px;
   }
 }
 </style>
-
-<!-- <h2>All Publications</h2>
-<hr /> -->
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
 
 

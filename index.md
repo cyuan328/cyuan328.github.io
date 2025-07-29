@@ -22,9 +22,9 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Sep. 17, 2024**: The work of [photonic in-memory sensing](https://pubs.acs.org/doi/abs/10.1021/acsnano.4c09735) is published in ***ACS Nano***.
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
 - One paper is submitted to ***Science Advances***.
-- One paper is submitted to ***Nature Nanotechnology***.
+- One paper is submitted to ***Nature Materials***.
 - One paper is submitted to ***Nature Electronics***.
-- One paper is submitted to ***Advanced Materials***.
+- One paper is submitted to ***Science Bulletin***.
 - **May. 23, 2025**: Paper "Diffractive tensorized unit for million-TOPS general-purpose computing" accepted by ***Nature Photonics***.
 - **Apr. 01, 2025**: I joined [School of Artificial Intelligence](https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan), Shanghai Jiao Tong University as an Associate Professor.
 - **Mar. 21, 2025**: Paper "High-spatiotemporal-resolution distributed Brillouin sensing with transient acoustic wave" accepted by ***Light: Science & Applications***.

@@ -23,7 +23,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
 - One paper is submitted to ***Science Advances***.
 - One paper is submitted to ***Nature Materials***.
-- One paper is submitted to ***Nature Electronics***.
+- One paper is submitted to ***Nature Sensors***.
 - One paper is submitted to ***Science Bulletin***.
 - **May. 23, 2025**: Paper "Diffractive tensorized unit for million-TOPS general-purpose computing" accepted by ***Nature Photonics***.
 - **Apr. 01, 2025**: I joined [School of Artificial Intelligence](https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan), Shanghai Jiao Tong University as an Associate Professor.

@@ -32,3 +32,9 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Dec. 19, 2023**: Paper "Photonic neuromorphic architecture for tens-of-task lifelong learning" accepted by ***Light: Science & Applications***.
 
 You can find our latest publications on [Google Scholar](https://scholar.google.com/citations?user=XJLW5xMAAAAJ&hl=zh-CN). 
+
+Welcome to follow our official WeChat public account via:
+
+<div style="text-align: center;">
+  <img src="/images/qrcode.png" alt="WeChat QR Code" style="width: 200px; height: 200px;">
+</div>

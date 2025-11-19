@@ -26,7 +26,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - One paper is submitted to ***ICLR***.
 - Two papers are submitted to ***Nature Sensors***.
 - One paper is submitted to ***Science Bulletin***.
-- **Nov. 14, 2025**: Paper "Reconfigurable Magneto-Optoelectronic Devices for Multi-Dimensional Optical Neural Network" accepted by ***Small Science***.
+- **Nov. 14, 2025**: Paper "Reconfigurable magneto-optoelectronic devices for multi-dimensional optical neural network" accepted by ***Small Science***.
 - **May. 23, 2025**: Paper "Diffractive tensorized unit for million-TOPS general-purpose computing" accepted by ***Nature Photonics***.
 - **Apr. 01, 2025**: I joined [School of Artificial Intelligence](https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan), Shanghai Jiao Tong University as an Associate Professor.
 - **Mar. 21, 2025**: Paper "High-spatiotemporal-resolution distributed Brillouin sensing with transient acoustic wave" accepted by ***Light: Science & Applications***.

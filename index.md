@@ -18,6 +18,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 
 ## News
 
+- **Dec. 15, 2025**: The work of [reconfigurable ONN](https://www.sciencedirect.com/science/article/pii/S2095927325012575) is published in ***Science Bulletin***.
 - **Dec. 07, 2025**: The work of [multi-dimensional ONN](https://onlinelibrary.wiley.com/doi/full/10.1002/smsc.202500487) is published in ***Small Science***.
 - **Aug. 27, 2025**: The work of [DTU](https://www.nature.com/articles/s41566-025-01749-3) is published in ***Nature Photonics***.
 - **Jun. 03, 2025**: The work of [Brillouin sensing](https://www.nature.com/articles/s41377-025-01848-4) is published in ***Light: Science & Applications***.
@@ -26,7 +27,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - Two papers are submitted to ***CVPR***.
 - One paper is submitted to ***ICLR***.
 - Two papers are submitted to ***Nature Sensors***.
-- One paper is submitted to ***Science Bulletin***.
+- **Dec. 03, 2025**: Paper "Reconfigurable bipolar and nonlinear photoresponse in 2D photodetectors for high-performance optical neural networks" accepted by ***Science Bulletin***.
 - **Nov. 14, 2025**: Paper "Reconfigurable magneto-optoelectronic devices for multi-dimensional optical neural network" accepted by ***Small Science***.
 - **May. 23, 2025**: Paper "Diffractive tensorized unit for million-TOPS general-purpose computing" accepted by ***Nature Photonics***.
 - **Apr. 01, 2025**: I joined [School of Artificial Intelligence](https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/chengyuan), Shanghai Jiao Tong University as an Associate Professor.

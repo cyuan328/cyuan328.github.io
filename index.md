@@ -27,7 +27,6 @@ We are looking for talented phd/master students, research assistants, interns, a
 - Four papers are submitted to ***ICML***.
 - One paper is submitted to ***SIGGRAPH***.
 - Two papers are submitted to ***CVPR***.
-- One paper is submitted to ***ICLR***.
 - Two papers are submitted to ***Nature Sensors***.
 - **Dec. 03, 2025**: Paper "Reconfigurable bipolar and nonlinear photoresponse in 2D photodetectors for high-performance optical neural networks" accepted by ***Science Bulletin***.
 - **Nov. 14, 2025**: Paper "Reconfigurable magneto-optoelectronic devices for multi-dimensional optical neural network" accepted by ***Small Science***.

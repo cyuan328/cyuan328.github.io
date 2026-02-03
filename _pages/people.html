@@ -6,34 +6,54 @@ author_profile: true
 ---
 
 <style>
+/* People page container */
+.people-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .people-section {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .people-section h2 {
-  color: #494e52;
-  border-bottom: 2px solid #f2f3f3;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 .person-card {
   display: flex;
   align-items: flex-start;
   margin-bottom: 30px;
-  padding: 20px;
-  background: #f8f9fa;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.person-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
 }
 
 .person-photo {
   width: 180px;
   height: 180px;
-  border-radius: 8px;
+  border-radius: 50%;
   object-fit: cover;
-  margin-right: 20px;
+  margin-right: 25px;
   flex-shrink: 0;
+  border: 3px solid #e8e8e8;
+  transition: border-color 0.3s ease;
+}
+
+.person-card:hover .person-photo {
+  border-color: #3498db;
 }
 
 .person-info {
@@ -41,49 +61,152 @@ author_profile: true
 }
 
 .person-name {
-  font-size: 1.2em;
-  font-weight: bold;
+  font-size: 1.3em;
+  font-weight: 600;
   color: #2c3e50;
   margin-bottom: 8px;
-}
-
-.person-contacts {
-  font-size: 0.9em;
-  font-style: italic;
-  color: #666;
-  margin-bottom: 3px;
-}
-
-.person-interests {
-  font-size: 0.9em;
-  font-style: italic;
-  color: #666;
-  margin-bottom: 10px;
 }
 
 .person-title {
   color: #7f8c8d;
   font-style: italic;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-size: 0.95em;
+}
+
+.person-interests {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.person-interests::before {
+  content: "🔬 ";
+  margin-right: 5px;
+}
+
+.person-contacts {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.person-contacts::before {
+  content: "✉️ ";
+  margin-right: 5px;
 }
 
 .person-bio {
-  line-height: 1.6;
+  line-height: 1.7;
   color: #555;
+  font-size: 0.95em;
 }
 
 .person-links {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .person-links a {
   margin-right: 15px;
   color: #3498db;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .person-links a:hover {
+  color: #2980b9;
   text-decoration: underline;
+}
+
+/* Tablet breakpoint - Medium screens */
+@media (max-width: 900px) {
+  .person-photo {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .person-card {
+    padding: 20px;
+  }
+  
+  .people-section h2 {
+    font-size: 1.4em;
+  }
+}
+
+/* Mobile breakpoint - Small screens */
+@media (max-width: 768px) {
+  .person-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .person-photo {
+    width: 120px;
+    height: 120px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .person-info {
+    width: 100%;
+  }
+  
+  .person-name {
+    font-size: 1.2em;
+  }
+  
+  .people-section h2 {
+    font-size: 1.3em;
+  }
+  
+  .person-bio {
+    text-align: left;
+  }
+  
+  .person-interests,
+  .person-contacts {
+    text-align: left;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .person-card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .person-photo {
+    width: 100px;
+    height: 100px;
+    border-width: 2px;
+  }
+  
+  .people-section {
+    margin-bottom: 35px;
+  }
+  
+  .people-section h2 {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .person-name {
+    font-size: 1.1em;
+  }
+  
+  .person-bio,
+  .person-interests,
+  .person-contacts {
+    font-size: 0.85em;
+  }
 }
 </style>
 

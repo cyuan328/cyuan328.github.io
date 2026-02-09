@@ -442,72 +442,33 @@
 /* 移动端：默认显示缩写，当前页面显示全称 */
 @media (max-width: 768px) {
   .greedy-nav {
-    a {
-      margin: 0 0.5rem !important;
-      padding: 0.5rem 0 !important;
-    }
-    
     .visible-links {
-      display: flex !important;
-      width: 100% !important;
-      justify-content: space-around !important;
-      flex-wrap: wrap !important;
-      
       li {
-        display: block !important;
-        flex: 0 0 auto !important;
-        text-align: center !important;
-        
         a {
-          font-size: 1rem !important;
-          display: block !important;
-          margin: 0 0.3rem !important;
-          padding: 0.5rem 0.4rem !important;
-          white-space: nowrap !important;
+          font-size: 1rem;
+          margin: 0 0.3rem;
         }
         
         /* 默认：隐藏全称，显示缩写 */
         .nav-full {
-          display: none !important;
+          display: none;
         }
         .nav-short {
-          display: inline !important;
+          display: inline;
         }
         
         /* 当前激活页面：显示全称，隐藏缩写 */
         &.active {
           .nav-full {
-            display: inline !important;
-            font-weight: bold !important;
-            color: #1a4d33 !important;
+            display: inline;
+            font-weight: bold;
+            color: #1a4d33;
           }
           .nav-short {
-            display: none !important;
-          }
-          
-          a {
-            background-color: rgba(26, 77, 51, 0.1) !important;
-            border-bottom: 3px solid #1a4d33 !important;
+            display: none;
           }
         }
       }
-      
-      /* 让 About us 在移动端也显示，但样式统一 */
-      .masthead__menu-item--lg {
-        display: block !important;
-        flex: 0 0 auto !important;
-        font-weight: normal !important;
-        
-        a {
-          font-size: 1rem !important;
-          margin: 0 0.3rem !important;
-        }
-      }
-    }
-    
-    /* 强制隐藏下拉按钮 */
-    button {
-      display: none !important;
     }
   }
 }
@@ -517,38 +478,10 @@
   .greedy-nav {
     .visible-links {
       .nav-short {
-        display: none !important;
+        display: none;
       }
       .nav-full {
-        display: inline !important;
-      }
-    }
-  }
-}
-
-/* 超小屏幕优化 */
-@media (max-width: 480px) {
-  .greedy-nav {
-    .visible-links {
-      li {
-        a {
-          font-size: 0.85rem !important;
-          padding: 0.5rem 0.2rem !important;
-          margin: 0 0.15rem !important;
-        }
-      }
-    }
-  }
-}
-
-/* 中等屏幕优化 */
-@media (min-width: 481px) and (max-width: 768px) {
-  .greedy-nav {
-    .visible-links {
-      li {
-        a {
-          font-size: 1.05rem !important;
-        }
+        display: inline;
       }
     }
   }

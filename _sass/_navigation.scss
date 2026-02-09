@@ -433,3 +433,56 @@
     }
   }
 }
+
+
+
+
+/* 移动端导航优化 - 确保所有导航项都显示 */
+@media (max-width: 768px) {
+  .greedy-nav {
+    a {
+      margin: 0 0.4rem;  /* 减少左右间距 */
+      font-size: 0.85rem; /* 减小字体 */
+      padding: 0.5rem 0;
+    }
+    
+    .visible-links {
+      li {
+        white-space: normal; /* 允许文字换行 */
+        
+        a {
+          margin: 0 0.3rem;
+        }
+      }
+    }
+  }
+}
+
+/* 小屏幕进一步优化 */
+@media (max-width: 480px) {
+  .greedy-nav {
+    a {
+      margin: 0 0.25rem;
+      font-size: 0.75rem; /* 更小的字体 */
+      padding: 0.4rem 0;
+    }
+    
+    .visible-links {
+      li {
+        a {
+          margin: 0 0.2rem;
+        }
+      }
+    }
+  }
+}
+
+/* 超小屏幕优化 */
+@media (max-width: 375px) {
+  .greedy-nav {
+    a {
+      margin: 0 0.15rem;
+      font-size: 0.7rem;
+    }
+  }
+}

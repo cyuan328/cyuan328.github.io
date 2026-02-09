@@ -10,11 +10,11 @@ main:
     url: /publications/
 
   - title: "People"
-    short_title: "Team"
+    short_title: "Peo"
     url: /people/
 
   - title: "Positions"
-    short_title: "Join"
+    short_title: "Pos"
     url: /position/ 
     
   # - title: "Portfolio"

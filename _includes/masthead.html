@@ -10,10 +10,22 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            
+            {% comment %} 判断是否是当前页面 {% endcomment %}
+            {% assign is_current = false %}
+            {% if page.url contains link.url %}
+              {% assign is_current = true %}
+            {% endif %}
+            
+            <li class="masthead__menu-item {% if is_current %}active{% endif %}">
+              <a href="{{ domain }}{{ link.url }}">
+                <span class="nav-full">{{ link.title }}</span>
+                <span class="nav-short">{{ link.short_title | default: link.title }}</span>
+              </a>
+            </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

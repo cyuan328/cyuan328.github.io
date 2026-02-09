@@ -435,3 +435,68 @@
 }
 
 
+/* ========================================================================
+   移动端导航优化：缩写显示 + 当前页面全称
+   ======================================================================== */
+
+/* 移动端：默认显示缩写，当前页面显示全称 */
+@media (max-width: 768px) {
+  .greedy-nav {
+    .visible-links {
+      li {
+        a {
+          font-size: 0.85rem;
+          margin: 0 0.3rem;
+        }
+        
+        /* 默认：隐藏全称，显示缩写 */
+        .nav-full {
+          display: none;
+        }
+        .nav-short {
+          display: inline;
+        }
+        
+        /* 当前激活页面：显示全称，隐藏缩写 */
+        &.active {
+          .nav-full {
+            display: inline;
+            font-weight: bold;
+            color: #1a4d33;
+          }
+          .nav-short {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 桌面端：始终显示全称 */
+@media (min-width: 769px) {
+  .greedy-nav {
+    .visible-links {
+      .nav-short {
+        display: none;
+      }
+      .nav-full {
+        display: inline;
+      }
+    }
+  }
+}
+
+/* 超小屏幕：进一步优化字体大小 */
+@media (max-width: 480px) {
+  .greedy-nav {
+    .visible-links {
+      li {
+        a {
+          font-size: 0.75rem;
+          margin: 0 0.2rem;
+        }
+      }
+    }
+  }
+}

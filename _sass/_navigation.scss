@@ -442,55 +442,70 @@
 /* 移动端：默认显示缩写，当前页面显示全称 */
 @media (max-width: 768px) {
   .greedy-nav {
+    a {
+      margin: 0 0.5rem !important;
+      padding: 0.5rem 0 !important;
+    }
+    
     .visible-links {
-      display: flex;
-      width: 100%;
-      justify-content: space-around;  /* 均匀分布，占满整行 */
+      display: flex !important;
+      width: 100% !important;
+      justify-content: space-around !important;
+      flex-wrap: wrap !important;
       
       li {
-        flex: 1;  /* 每个导航项平均分配空间 */
-        text-align: center;  /* 文字居中 */
+        display: block !important;
+        flex: 0 0 auto !important;
+        text-align: center !important;
         
         a {
-          font-size: 1rem;  /* 增大字体，原来是 0.85rem */
-          margin: 0;
-          padding: 0.5rem 0.2rem;
-          display: block;  /* 让链接占满整个 li */
+          font-size: 1rem !important;
+          display: block !important;
+          margin: 0 0.3rem !important;
+          padding: 0.5rem 0.4rem !important;
+          white-space: nowrap !important;
         }
         
         /* 默认：隐藏全称，显示缩写 */
         .nav-full {
-          display: none;
+          display: none !important;
         }
         .nav-short {
-          display: inline;
+          display: inline !important;
         }
         
         /* 当前激活页面：显示全称，隐藏缩写 */
         &.active {
           .nav-full {
-            display: inline;
-            font-weight: bold;
-            color: #1a4d33;
+            display: inline !important;
+            font-weight: bold !important;
+            color: #1a4d33 !important;
           }
           .nav-short {
-            display: none;
+            display: none !important;
           }
           
           a {
-            background-color: rgba(26, 77, 51, 0.08);  /* 淡绿色背景 */
-            border-bottom: 2px solid #1a4d33;  /* 底部绿色边框 */
+            background-color: rgba(26, 77, 51, 0.1) !important;
+            border-bottom: 3px solid #1a4d33 !important;
           }
         }
       }
       
-      /* 隐藏 "About us" 这个大标题在移动端 */
+      /* 让 About us 在移动端也显示，但样式统一 */
       .masthead__menu-item--lg {
-        display: none;
+        display: block !important;
+        flex: 0 0 auto !important;
+        font-weight: normal !important;
+        
+        a {
+          font-size: 1rem !important;
+          margin: 0 0.3rem !important;
+        }
       }
     }
     
-    /* 隐藏下拉按钮 */
+    /* 强制隐藏下拉按钮 */
     button {
       display: none !important;
     }
@@ -502,36 +517,37 @@
   .greedy-nav {
     .visible-links {
       .nav-short {
-        display: none;
+        display: none !important;
       }
       .nav-full {
-        display: inline;
+        display: inline !important;
       }
     }
   }
 }
 
-/* 超小屏幕：字体稍微小一点，但不要太小 */
+/* 超小屏幕优化 */
 @media (max-width: 480px) {
   .greedy-nav {
     .visible-links {
       li {
         a {
-          font-size: 0.9rem;  /* 从 0.75rem 改为 0.9rem */
-          padding: 0.5rem 0.1rem;
+          font-size: 0.85rem !important;
+          padding: 0.5rem 0.2rem !important;
+          margin: 0 0.15rem !important;
         }
       }
     }
   }
 }
 
-/* 中等屏幕 */
+/* 中等屏幕优化 */
 @media (min-width: 481px) and (max-width: 768px) {
   .greedy-nav {
     .visible-links {
       li {
         a {
-          font-size: 1.05rem;  /* 稍大一点 */
+          font-size: 1.05rem !important;
         }
       }
     }

@@ -6,13 +6,16 @@
 
 main:
   - title: "Publications"
+    short_title: "Pub"
     url: /publications/
 
   - title: "People"
+    short_title: "Team"
     url: /people/
 
   - title: "Positions"
-    url: /position/    
+    short_title: "Join"
+    url: /position/ 
     
   # - title: "Portfolio"
   #   url: /portfolio/

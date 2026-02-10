@@ -3,18 +3,20 @@
    ========================================================================== */
 
 .masthead {
-  position: fixed;
+  position: fixed !important; /* 强制固定定位 */
   background: white;
   border-bottom: 1px solid $border-color;
   height: $masthead-height;
-  top: 0;
+  top: 0 !important;
+  left: 0;
+  right: 0;
   width: 100%;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 9999 !important; /* 提高层级确保始终在最上层 */
 
   &__inner-wrap {
     @include container;
@@ -52,7 +54,7 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 1em; /* 减小标题右侧间距 */
     font-weight: 700;
   }
 }

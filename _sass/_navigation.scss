@@ -436,56 +436,65 @@
 
 
 /* ========================================================================
-   移动端导航优化：缩写显示 + 当前页面全称
+   移动端导航优化：横向滑动导航栏
    ======================================================================== */
 
-/* 移动端：默认显示缩写，当前页面显示全称 */
+/* 移动端：启用横向滑动 */
 @media (max-width: 768px) {
   .greedy-nav {
+    /* 容器设置 */
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+    
+    /* 隐藏滚动条但保持滚动功能 */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Edge */
+    }
+    
     .visible-links {
+      display: flex;
+      flex-wrap: nowrap; /* 不换行 */
+      white-space: nowrap; /* 防止文字换行 */
+      
       li {
+        flex-shrink: 0; /* 防止项目收缩 */
+        
         a {
-          font-size: 0.8rem;
-          margin: 0 0.2rem;
-        }
-        
-        /* 默认：隐藏全称，显示缩写 */
-        .nav-full {
-          display: none;
-        }
-        .nav-short {
-          display: inline;
-        }
-        
-        /* 当前激活页面：显示全称，隐藏缩写 */
-        &.active {
-          .nav-full {
-            display: inline;
-            font-weight: bold;
-            color: #1a4d33;
-          }
-          .nav-short {
-            display: none;
-          }
+          font-size: 0.9rem; /* 稍微调整字体大小 */
+          padding: 0.5rem 0.8rem; /* 调整内边距 */
+          white-space: nowrap; /* 确保文字不换行 */
         }
       }
-    .masthead__menu-item--lg {
-     a {
-       margin-right: 0.2rem !important;
-     }
+    }
+    
+    /* 隐藏 greedy navigation 的下拉按钮 */
+    button {
+      display: none !important;
+    }
+    
+    /* 隐藏 hidden-links */
+    .hidden-links {
+      display: none !important;
     }
   }
 }
 
-/* 桌面端：始终显示全称 */
+/* 桌面端：保持原有样式 */
 @media (min-width: 769px) {
   .greedy-nav {
     .visible-links {
-      .nav-short {
-        display: none;
-      }
-      .nav-full {
-        display: inline;
+      display: inline-block;
+      
+      li {
+        display: inline-block;
+        
+        a {
+          padding: 0.5rem 1rem;
+        }
       }
     }
   }

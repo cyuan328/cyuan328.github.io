@@ -21,10 +21,7 @@
             {% endif %}
             
             <li class="masthead__menu-item {% if is_current %}active{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">
-                <span class="nav-full">{{ link.title }}</span>
-                <span class="nav-short">{{ link.short_title | default: link.title }}</span>
-              </a>
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>

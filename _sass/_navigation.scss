@@ -158,29 +158,38 @@
   }
 }
 
-.page__content + .pagination,
-.page__meta + .pagination,
-.page__share + .pagination,
-.page__comments + .pagination {
-  margin-top: 2em;
-  padding-top: 2em;
-  border-top: 1px solid $border-color;
-}
-
-
 /*
-   Priority plus navigation
+   Priority plus navigation - custom
    ========================================================================== */
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  width: 100%;
   background: $background-color;
+
+  /* Mobile: allow horizontal scroll */
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+
+  /* hide scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* hide dropdown button */
+  button {
+    display: none !important;
+    visibility: hidden !important;
+  }
 
   a {
     display: block;
-    margin: 0 0.5rem; /* 减小间隙：从 1rem 改为 0.5rem */
-    padding: 0.5rem 0;
+    margin: 0 0.6rem;
+    padding: 0.6rem 0;
     color: $masthead-link-color;
     text-decoration: none;
 
@@ -189,84 +198,62 @@
     }
   }
 
-  button {
-    display: none !important; /* 始终隐藏下拉按钮，确保导航栏不消失 */
-  }
-
   .visible-links {
-    display: flex !important; /* 使用 flex 布局 */
-    flex-wrap: nowrap;
+    display: flex !important;
+    flex-wrap: nowrap !important;
     align-items: center;
+    white-space: nowrap;
+    padding-left: 0.2rem;
+  }
 
-    li {
-      display: inline-block;
-      flex-shrink: 0;
-      vertical-align: middle;
+  .visible-links li {
+    display: inline-flex !important;
+    flex-shrink: 0 !important;
+    align-items: center;
+  }
 
-      &:first-child {
-        font-weight: bold;
+  /* 当前页面高亮 */
+  .masthead__menu-item.active a {
+    color: $info-color !important;
+    font-weight: 700;
+  }
 
-        a {
-          margin-left: 0;
-        }
-      }
+  /* underline effect */
+  .visible-links a {
+    position: relative;
 
-      &:last-child {
-        a {
-          margin-right: 0;
-        }
-      }
-
-      /* 当前页面高亮样式 */
-      &.active {
-        a {
-          color: $primary-color;
-          font-weight: bold;
-          
-          &:before {
-            -webkit-transform: scaleX(1);
-                -ms-transform: scaleX(1);
-                    transform: scaleX(1); /* 始终显示下划线 */
-          }
-        }
-      }
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 4px;
+      background: $info-color;
+      width: 100%;
+      transition: $global-transition;
+      transform: scaleX(0);
     }
 
-    a {
-      position: relative;
-
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
-      }
-
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
-      }
+    &:hover:before {
+      transform: scaleX(1);
     }
   }
 
-  .hidden-links {
-    display: none !important; /* 始终隐藏下拉菜单 */
+  .masthead__menu-item.active a:before {
+    transform: scaleX(1);
   }
 }
 
+/* Desktop: keep all items inline without scroll */
+@media (min-width: 900px) {
+  .greedy-nav {
+    overflow-x: visible !important;
+  }
 
-/*
-   Navigation list
-   ========================================================================== */
+  .visible-links {
+    justify-content: flex-start;
+  }
+}
 
 .nav__list {
   font-size: 1.25rem;

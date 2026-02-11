@@ -27,7 +27,8 @@ We are looking for talented phd/master students, research assistants, interns, a
 - Four papers are submitted to ***ICML***.
 - One paper is submitted to ***SIGGRAPH***.
 - Two papers are submitted to ***CVPR***.
-- Two papers are submitted to ***Nature Sensors***.
+- One paper is submitted to ***Nature Sensors***.
+- **Feb. 07, 2026**: Paper "Self-reconfigurable polarization perception in dual-anisotropy heterostructures enables high-dimensional in-sensor computing" accepted by ***Nature Sensors***.
 - **Dec. 03, 2025**: Paper "Reconfigurable bipolar and nonlinear photoresponse in 2D photodetectors for high-performance optical neural networks" accepted by ***Science Bulletin***.
 - **Nov. 14, 2025**: Paper "Reconfigurable magneto-optoelectronic devices for multi-dimensional optical neural network" accepted by ***Small Science***.
 - **May. 23, 2025**: Paper "Diffractive tensorized unit for million-TOPS general-purpose computing" accepted by ***Nature Photonics***.

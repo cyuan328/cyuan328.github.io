@@ -169,28 +169,17 @@
 
 
 /*
-   Priority plus navigation - 完全重写
+   Priority plus navigation
    ========================================================================== */
 
 .greedy-nav {
   position: relative;
   min-width: 250px;
   background: $background-color;
-  overflow-x: auto !important;
-  overflow-y: hidden !important;
-  -webkit-overflow-scrolling: touch;
-  
-  /* 隐藏滚动条 */
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  
-  &::-webkit-scrollbar {
-    display: none;
-  }
 
   a {
     display: block;
-    margin: 0 0.4rem;
+    margin: 0 0.5rem; /* 减小间隙：从 1rem 改为 0.5rem */
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
@@ -200,21 +189,18 @@
     }
   }
 
-  /* 完全隐藏下拉按钮 */
   button {
-    display: none !important;
-    visibility: hidden !important;
+    display: none !important; /* 始终隐藏下拉按钮，确保导航栏不消失 */
   }
 
   .visible-links {
-    display: flex !important;
-    flex-wrap: nowrap !important;
+    display: flex !important; /* 使用 flex 布局 */
+    flex-wrap: nowrap;
     align-items: center;
-    white-space: nowrap;
 
     li {
-      display: inline-block !important;
-      flex-shrink: 0 !important;
+      display: inline-block;
+      flex-shrink: 0;
       vertical-align: middle;
 
       &:first-child {
@@ -234,13 +220,13 @@
       /* 当前页面高亮样式 */
       &.active {
         a {
-          color: #2f7f93 !important; /* 使用 info-color 作为高亮色 */
+          color: $primary-color;
           font-weight: bold;
           
           &:before {
-            -webkit-transform: scaleX(1) !important;
-                -ms-transform: scaleX(1) !important;
-                    transform: scaleX(1) !important;
+            -webkit-transform: scaleX(1);
+                -ms-transform: scaleX(1);
+                    transform: scaleX(1); /* 始终显示下划线 */
           }
         }
       }
@@ -255,27 +241,25 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: #2f7f93;
+        background: mix(#fff, $primary-color, 50%);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
-                transform: scaleX(0);
+                transform: scaleX(0); /* hide*/
       }
 
       &:hover:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
-                transform: scaleX(1);
+                transform: scaleX(1); /* reveal*/
       }
     }
   }
 
-  /* 完全隐藏下拉菜单 */
   .hidden-links {
-    display: none !important;
-    visibility: hidden !important;
+    display: none !important; /* 始终隐藏下拉菜单 */
   }
 }
 
@@ -399,6 +383,73 @@
 
     @include breakpoint($medium) {
       display: block;
+    }
+  }
+}
+
+
+/* ========================================================================
+   导航栏优化：所有设备统一横向滑动导航栏
+   ======================================================================== */
+
+/* 所有设备通用样式 */
+.greedy-nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+  
+  /* 隐藏滚动条但保持滚动功能 */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
+  
+  .visible-links {
+    display: flex !important;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    
+    li {
+      flex-shrink: 0;
+      
+      a {
+        font-size: 1rem;
+        padding: 0.5rem 0.4rem; /* 减小左右间隙 */
+        margin: 0 0.3rem; /* 减小外边距 */
+        white-space: nowrap;
+      }
+
+      /* 当前页面高亮 */
+      &.active a {
+        color: $primary-color;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  /* 始终隐藏下拉按钮和菜单 */
+  button {
+    display: none !important;
+  }
+  
+  .hidden-links {
+    display: none !important;
+  }
+}
+
+/* 桌面端稍微增加间距 */
+@media (min-width: 769px) {
+  .greedy-nav {
+    .visible-links {
+      li {
+        a {
+          font-size: 1rem;
+          padding: 0.5rem 0.5rem;
+          margin: 0 0.4rem;
+        }
+      }
     }
   }
 }

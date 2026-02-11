@@ -4,7 +4,7 @@
 * http://codepen.io/lukejacksonn/pen/PwmwWV
 *
 */
-
+/*
 var $nav = $('#site-nav');
 var $btn = $('#site-nav button');
 var $vlinks = $('#site-nav .visible-links');
@@ -70,3 +70,21 @@ $btn.on('click', function() {
 });
 
 updateNav();
+*/
+
+/*
+* Greedy Navigation - DISABLED
+* 
+* 原脚本会将导航项移到隐藏菜单，现在完全禁用此功能
+* 所有导航项将始终保持可见
+*/
+
+// 不执行任何操作，让所有导航项始终显示
+$(document).ready(function() {
+  // 确保所有导航项可见
+  $('#site-nav .visible-links li').css('display', 'inline-block');
+  
+  // 隐藏按钮和隐藏链接
+  $('#site-nav button').hide();
+  $('#site-nav .hidden-links').hide();
+});

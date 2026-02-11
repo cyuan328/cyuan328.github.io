@@ -244,6 +244,26 @@
   }
 }
 
+/* 强制隐藏列表也显示（防止 JS 把导航移走后看不见） */
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links.hidden {
+  display: flex !important;
+  visibility: visible !important;
+}
+
+.greedy-nav .hidden-links li {
+  display: inline-flex !important;
+  flex-shrink: 0 !important;
+}
+
+
+
 /* Desktop: keep all items inline without scroll */
 @media (min-width: 900px) {
   .greedy-nav {

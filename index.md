@@ -24,10 +24,11 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Jun. 03, 2025**: The work of [Brillouin sensing](https://www.nature.com/articles/s41377-025-01848-4) is published in ***Light: Science & Applications***.
 - **Sep. 17, 2024**: The work of [photonic in-memory sensing](https://pubs.acs.org/doi/abs/10.1021/acsnano.4c09735) is published in ***ACS Nano***.
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
+- One paper is submitted to ***ECCV***.
 - Four papers are submitted to ***ICML***.
 - One paper is submitted to ***SIGGRAPH***.
-- Two papers are submitted to ***CVPR***.
 - One paper is submitted to ***Nature Sensors***.
+- **Feb. 21, 2026**: Paper "UST-Hand: An Uncertainty-aware Spatiotemporal Point Cloud Interaction Network for 3D Self-supervised Hand Pose Estimation" accepted by ***CVPR***.
 - **Feb. 07, 2026**: Paper "Self-reconfigurable polarization perception in dual-anisotropy heterostructures enables high-dimensional in-sensor computing" accepted by ***Nature Sensors***.
 - **Dec. 03, 2025**: Paper "Reconfigurable bipolar and nonlinear photoresponse in 2D photodetectors for high-performance optical neural networks" accepted by ***Science Bulletin***.
 - **Nov. 14, 2025**: Paper "Reconfigurable magneto-optoelectronic devices for multi-dimensional optical neural network" accepted by ***Small Science***.

@@ -28,7 +28,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - Four papers are submitted to ***ICML***.
 - One paper is submitted to ***SIGGRAPH***.
 - One paper is submitted to ***Nature Sensors***.
-- **Feb. 21, 2026**: Paper "UST-Hand: An Uncertainty-aware Spatiotemporal Point Cloud Interaction Network for 3D Self-supervised Hand Pose Estimation" accepted by ***CVPR***.
+- **Feb. 21, 2026**: One paper is accepted by ***CVPR***.
 - **Feb. 07, 2026**: Paper "Self-reconfigurable polarization perception in dual-anisotropy heterostructures enables high-dimensional in-sensor computing" accepted by ***Nature Sensors***.
 - **Dec. 03, 2025**: Paper "Reconfigurable bipolar and nonlinear photoresponse in 2D photodetectors for high-performance optical neural networks" accepted by ***Science Bulletin***.
 - **Nov. 14, 2025**: Paper "Reconfigurable magneto-optoelectronic devices for multi-dimensional optical neural network" accepted by ***Small Science***.

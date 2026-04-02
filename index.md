@@ -26,6 +26,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
 - One paper is submitted to ***ECCV***.
 - Four papers are submitted to ***ICML***.
+- **Apr. 02, 2026**: One paper is accepted by ***AFM***.
 - **Mar. 31, 2026**: Paper "Multi-responsive retinomorphic sensor for reconfigurable optoelectronic computing" accepted by ***Nature Sensors***.
 - **Mar. 28, 2026**: One paper is accepted by ***SIGGRAPH***.
 - **Feb. 21, 2026**: One paper is accepted by ***CVPR***.

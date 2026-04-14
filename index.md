@@ -18,6 +18,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 
 ## News
 
+- **Apr. 14, 2026**: The work of [PolorSight SPU](https://doi.org/10.1038/s44460-026-00057-9) is published in ***Nature Sensors***.
 - **Dec. 15, 2025**: The work of [reconfigurable ONN](https://www.sciencedirect.com/science/article/pii/S2095927325012575) is published in ***Science Bulletin***.
 - **Dec. 07, 2025**: The work of [multi-dimensional ONN](https://onlinelibrary.wiley.com/doi/full/10.1002/smsc.202500487) is published in ***Small Science***.
 - **Aug. 27, 2025**: The work of [DTU](https://www.nature.com/articles/s41566-025-01749-3) is published in ***Nature Photonics***.

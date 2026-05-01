@@ -26,7 +26,8 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Sep. 17, 2024**: The work of [photonic in-memory sensing](https://pubs.acs.org/doi/abs/10.1021/acsnano.4c09735) is published in ***ACS Nano***.
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
 - One paper is submitted to ***ECCV***.
-- Four papers are submitted to ***ICML***.
+- Three papers are submitted to ***NeurlPS***.
+- **May. 01, 2026**: One paper is accepted by ***ICML***.
 - **Apr. 02, 2026**: One paper is accepted by ***AFM***.
 - **Mar. 31, 2026**: Paper "Multi-responsive retinomorphic sensor for reconfigurable optoelectronic computing" accepted by ***Nature Sensors***.
 - **Mar. 28, 2026**: One paper is accepted by ***SIGGRAPH***.

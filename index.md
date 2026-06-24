@@ -17,8 +17,7 @@ Our Computing Technology Laboratory ([CLab](/people/)) is a multidisciplinary re
 We are looking for talented phd/master students, research assistants, interns, and postdocs ([招生贴](/position/)). If you are interested in working with us, feel free to contact [email](mailto:cyuan328@sjtu.edu.cn).
 
 ## News
-- **Jun. 22, 2026**: The work of MRRS is selected as ***Cover Article*** by Nature Sensors.
-- **Jun. 05, 2026**: The work of [MRRS](https://doi.org/10.1038/s44460-026-00081-9) is published in ***Nature Sensors***.
+- **Jun. 05, 2026**: The work of [MRRS](https://doi.org/10.1038/s44460-026-00081-9) is published in ***Nature Sensors*** (Cover Article).
 - **Apr. 14, 2026**: The work of [SPU](https://doi.org/10.1038/s44460-026-00057-9) is published in ***Nature Sensors***.
 - **Dec. 15, 2025**: The work of [reconfigurable ONN](https://www.sciencedirect.com/science/article/pii/S2095927325012575) is published in ***Science Bulletin***.
 - **Dec. 07, 2025**: The work of [multi-dimensional ONN](https://onlinelibrary.wiley.com/doi/full/10.1002/smsc.202500487) is published in ***Small Science***.
@@ -28,6 +27,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
 - One paper is submitted to ***ECCV***.
 - Three papers are submitted to ***NeurlPS***.
+- **Jun. 22, 2026**: The work of MRRS is selected as ***Cover Article*** by Nature Sensors.
 - **May. 01, 2026**: One paper is accepted by ***ICML***.
 - **Apr. 02, 2026**: One paper is accepted by ***AFM***.
 - **Mar. 31, 2026**: Paper "Multi-responsive retinomorphic sensor for reconfigurable optoelectronic computing" accepted by ***Nature Sensors***.

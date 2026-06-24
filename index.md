@@ -17,7 +17,7 @@ Our Computing Technology Laboratory ([CLab](/people/)) is a multidisciplinary re
 We are looking for talented phd/master students, research assistants, interns, and postdocs ([招生贴](/position/)). If you are interested in working with us, feel free to contact [email](mailto:cyuan328@sjtu.edu.cn).
 
 ## News
-- **Jun. 22, 2026**: The work of MRRS is selected as Cover Article by ***Nature Sensors***.
+- **Jun. 22, 2026**: The work of MRRS is selected as ***Cover Article*** by Nature Sensors.
 - **Jun. 05, 2026**: The work of [MRRS](https://doi.org/10.1038/s44460-026-00081-9) is published in ***Nature Sensors***.
 - **Apr. 14, 2026**: The work of [SPU](https://doi.org/10.1038/s44460-026-00057-9) is published in ***Nature Sensors***.
 - **Dec. 15, 2025**: The work of [reconfigurable ONN](https://www.sciencedirect.com/science/article/pii/S2095927325012575) is published in ***Science Bulletin***.

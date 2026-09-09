@@ -27,7 +27,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - **Feb. 26, 2024**: The work of [L²ONN](https://www.nature.com/articles/s41377-024-01395-4) is published in ***Light: Science & Applications***.
 - One paper is submitted to ***Nature***.
 - One paper is submitted to ***Science***.
-- One paper is submitted to ***Nature Sensors***.
+- One paper is submitted to ***Science Advances***.
 - Five papers are submitted to ***AAAI***.
 - Three papers are submitted to ***NeurlPS***.
 - **Jun. 22, 2026**: The work of MRRS is selected as ***Cover Article*** by Nature Sensors.

@@ -51,5 +51,5 @@ You can find our latest publications on [Google Scholar](https://scholar.google.
 Welcome to follow our official WeChat public account via:
 
 <div style="text-align: center;">
-  <img src="/images/qrcode.png" alt="WeChat QR Code" style="width: 200px; height: 200px;">
+  <img src="/images/qrcode1.png" alt="WeChat QR Code" style="width: 200px; height: 200px;">
 </div>

@@ -28,6 +28,7 @@ We are looking for talented phd/master students, research assistants, interns, a
 - One paper is submitted to ***Nature***.
 - One paper is submitted to ***Science***.
 - One paper is submitted to ***Nature Communications***.
+- Three papers are submitted to ***CVPR***.
 - One paper is submitted to ***ACL***.
 - Two papers are submitted to ***ICLR***.
 - Five papers are submitted to ***AAAI***.
